@@ -1,6 +1,6 @@
 {% set name = "cli_helpers" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "dd6f164310f7d86fa3da1f82043a9c784e44a02ad49be932a80624261e56979b" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "733f65d8c921e0cffa8f7ae4c8735bd7ecdffec383c5246f647ddd0fddb33448" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
