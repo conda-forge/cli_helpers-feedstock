@@ -12,22 +12,28 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
-
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+  
 requirements:
   host:
-    - python
-    - setuptools
+    - python >=3.6
+    - pip
   run:
-    - python
-    - terminaltables >=3.0.0
-    - backports.csv >=1.0.0
+    - python >=3.6
+    - configobj >=5.0.5
+    - pygments >=1.6
+    - tabulate >=0.8.2
 
 test:
   imports:
     - cli_helpers
+    - cli_helpers.tabular_output
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://cli-helpers.rtfd.io
