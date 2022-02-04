@@ -1,6 +1,6 @@
 {% set name = "cli_helpers" %}
-{% set version = "2.2.0" %}
-{% set sha256 = "733f65d8c921e0cffa8f7ae4c8735bd7ecdffec383c5246f647ddd0fddb33448" %}
+{% set version = "2.2.1" %}
+{% set sha256 = "0ccc1cfcda1ac64dc7ed83d7013055cf19e5979d29e56c21f3b692de01555aae" %}
 
 package:
   name: {{ name|lower }}
@@ -15,7 +15,7 @@ build:
   number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  
+
 requirements:
   host:
     - python >=3.6
