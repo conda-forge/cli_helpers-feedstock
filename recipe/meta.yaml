@@ -26,6 +26,7 @@ requirements:
     - configobj >=5.0.5
     - pygments >=1.6
     - tabulate >=0.9.0
+    - wcwidth
 
 test:
   imports:
