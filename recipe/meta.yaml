@@ -1,6 +1,6 @@
 {% set name = "cli_helpers" %}
-{% set version = "2.3.1" %}
-{% set sha256 = "b82a8983ceee21f180e6fd0ddb7ca8dae43c40e920951e3817f996ab204dae6a" %}
+{% set version = "2.4.0" %}
+{% set sha256 = "55903b705a212a473731db20fa26f58655e354078b99cb13c99ec06940287a4d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -26,6 +26,7 @@ requirements:
     - configobj >=5.0.5
     - pygments >=1.6
     - tabulate >=0.9.0
+    - wcwidth
 
 test:
   imports:
