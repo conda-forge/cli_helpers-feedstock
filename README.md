@@ -31,7 +31,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-cli_helpers-green.svg)](https://anaconda.org/conda-forge/cli_helpers) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cli_helpers.svg)](https://anaconda.org/conda-forge/cli_helpers) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cli_helpers.svg)](https://anaconda.org/conda-forge/cli_helpers) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cli_helpers.svg)](https://anaconda.org/conda-forge/cli_helpers) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cli__helpers-green.svg)](https://anaconda.org/conda-forge/cli_helpers) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cli_helpers.svg)](https://anaconda.org/conda-forge/cli_helpers) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cli_helpers.svg)](https://anaconda.org/conda-forge/cli_helpers) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cli_helpers.svg)](https://anaconda.org/conda-forge/cli_helpers) |
 
 Installing cli_helpers
 ======================
