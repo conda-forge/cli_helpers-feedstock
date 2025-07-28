@@ -1,6 +1,6 @@
 {% set name = "cli_helpers" %}
-{% set version = "2.6.0" %}
-{% set sha256 = "1d37659ebb4eb5e2ebecd8a148ba2698eb7da62b34d63124bf5ce7ff3c4d413f" %}
+{% set version = "2.7.0" %}
+{% set sha256 = "62d11710dbebc2fc460003de1215688325d8636859056d688b38419bd4048bc0" %}
 
 package:
   name: {{ name|lower }}
