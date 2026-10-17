@@ -1,6 +1,6 @@
 {% set name = "cli_helpers" %}
-{% set version = "2.15.1" %}
-{% set sha256 = "e9c0826dda2855745eb63b3fd8e33b6ac8881188f2ba91e51a516ed833fc0cb8" %}
+{% set version = "2.15.2" %}
+{% set sha256 = "730ddf07bff25b566c64453e543496364e88cbab2a0554e0bee0de98feedc68f" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
